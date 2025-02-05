@@ -1,0 +1,90 @@
+{
+  "data": {
+    "invoices": [
+      {
+        "id": "e1e1e1e1-e1e1-e1e1-e1e1-e1e1e1e1e1e1",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "companyId": "1e2b47e6-499e-41c6-91d3-09d12dddfbbd",
+        "grossValue": "324222",
+        "vat": "0"
+      },
+      {
+        "id": "e2e2e2e2-e2e2-e2e2-e2e2-e2e2e2e2e2e2",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d480",
+        "companyId": "0f05a8f1-2bdf-4be7-8c82-4c9b58f04898",
+        "grossValue": "193498",
+        "vat": "19"
+      },
+      {
+        "id": "e3e3e3e3-e3e3-e3e3-e3e3-e3e3e3e3e3e3",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d481",
+        "companyId": "1e2b47e6-499e-41c6-91d3-09d12dddfbbd",
+        "grossValue": "345498",
+        "vat": "21"
+      },
+      {
+        "id": "e4e4e4e4-e4e4-e4e4-e4e4-e4e4e4e4e4e4",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d482",
+        "companyId": "1c4b0b50-1d5d-463a-b56e-1a6fd3aeb7d6",
+        "grossValue": "245412",
+        "vat": "34"
+      },
+      {
+        "id": "e5e5e5e5-e5e5-e5e5-e5e5-e5e5e5e5e5e5",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d483",
+        "companyId": "34538e39-cd2e-4641-8d24-3c94146e6f16",
+        "grossValue": "145467",
+        "vat": "0"
+      },
+      {
+        "id": "e6e6e6e6-e6e6-e6e6-e6e6-e6e6e6e6e6e6",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d484",
+        "companyId": "fa14c3ed-3c48-49f4-bd69-4d7f5b5f4b1b",
+        "grossValue": "581530",
+        "vat": "19"
+      },
+      {
+        "id": "e7e7e7e7-e7e7-e7e7-e7e7-e7e7e7e7e7e7",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d485",
+        "companyId": "2e90f2b1-d237-47a6-96e8-6d01c0d78c3e",
+        "grossValue": "45100",
+        "vat": "19"
+      },
+      {
+        "id": "e8e8e8e8-e8e8-e8e8-e8e8-e8e8e8e8e8e8",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d486",
+        "companyId": "acdb6f30-764f-404e-8b8e-7e7e3e6fa1a9",
+        "grossValue": "565210",
+        "vat": "21"
+      },
+      {
+        "id": "e9e9e9e9-e9e9-e9e9-e9e9-e9e9e9e9e9e9",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d487",
+        "companyId": "5f0bdbdf-1d84-4c23-957c-8bb8c0ddc89d",
+        "grossValue": "345310",
+        "vat": "34"
+      },
+      {
+        "id": "ea9ea9ea-9ea9-9ea9-9ea9-9ea9ea9ea9ea",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d487",
+        "companyId": "5f0bdbdf-1d84-4c23-957c-8bb8c0ddc89d",
+        "grossValue": "345310",
+        "vat": "34"
+      },
+      {
+        "id": "eb0eb0eb-0eb0-0eb0-0eb0-0eb0eb0eb0eb",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d488",
+        "companyId": "27c59f76-5d26-4b82-a89b-59f8dfd2e9a7",
+        "grossValue": "341315",
+        "vat": "21"
+      },
+      {
+        "id": "ec1ec1ec-1ec1-1ec1-1ec1-1ec1ec1ec1ec",
+        "orderId": "f47ac10b-58cc-4372-a567-0e02b2c3d489",
+        "companyId": "20dfef10-8f4e-45a1-82fc-123f4ab2a4a5",
+        "grossValue": "291315",
+        "vat": "0"
+      }
+    ]
+  }
+}

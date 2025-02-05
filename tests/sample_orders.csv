@@ -1,0 +1,9 @@
+order_id;date;company_id;company_name;crate_type;contact_data;salesowners
+f47ac10b-58cc-4372-a567-0e02b2c3d479;29.01.22;1e2b47e6-499e-41c6-91d3-09d12dddfbbd;Fresh Fruits Co;Plastic;"[{ ""contact_name"":""Curtis"", ""contact_surname"":""Jackson"", ""city"":""Chicago"", ""cp"": ""12345""}]";Leonard Cohen, Luke Skywalker, Ammy Winehouse
+f47ac10b-58cc-4372-a567-0e02b2c3d480;21.02.22;0f05a8f1-2bdf-4be7-8c82-4c9b58f04898;Veggies Inc;Wood;"[{ ""contact_name"":""Maria"", ""contact_surname"":""Theresa"", ""city"":""Calcutta""}]";Luke Skywalker, David Goliat, Leon Leonov
+f47ac10b-58cc-4372-a567-0e02b2c3d481;03.04.22;1e2b47e6-499e-41c6-91d3-09d12dddfbbd;Fresh Fruits c.o;Metal;"[{ ""contact_name"":""Para"", ""contact_surname"":""Cetamol"", ""city"":""Frankfurt am Oder"", ""cp"": 3934}]";Luke Skywalker
+f47ac10b-58cc-4372-a567-0e02b2c3d482;14.07.21;1c4b0b50-1d5d-463a-b56e-1a6fd3aeb7d6;Seafood Supplier;Plastic;;David Goliat, Leonard Cohen
+f47ac10b-58cc-4372-a567-0e02b2c3d483;23.10.22;34538e39-cd2e-4641-8d24-3c94146e6f16;Meat Packers Ltd;Plastic;;Chris Pratt, David Henderson, Marianov Merschik, Leon Leonov
+f47ac10b-58cc-4372-a567-0e02b2c3d484;15.05.22;fa14c3ed-3c48-49f4-bd69-4d7f5b5f4b1b;Green Veg Co;Wood;"[{ ""contact_name"":""John"", ""contact_surname"":""Krasinski"", ""city"":""New York"", ""cp"": ""1203""}]";Leonard Cohen, David Henderson
+f47ac10b-58cc-4372-a567-0e02b2c3d485;31.12.22;2e90f2b1-d237-47a6-96e8-6d01c0d78c3e;Seafood Supplier GmbH;Metal;;Markus Söder, Ammy Winehouse
+f47ac10b-58cc-4372-a567-0e02b2c3d486;01.04.22;acdb6f30-764f-404e-8b8e-7e7e3e6fa1a9;Organic Farms;Metal;"[{ ""contact_name"":""Jennifer"", ""contact_surname"":""Lopez"", ""city"":""Esplugues de Llobregat""}]";David Henderson, Leonard Cohen, Leon Leonov
