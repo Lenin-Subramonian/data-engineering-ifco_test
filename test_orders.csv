@@ -1,7 +1,0 @@
-order_id;date;company_id;company_name;crate_type;contact_data;salesowners
-                479;29.01.22;09d12dddfbbd;Fresh Fruits Co;Plastic;"[{""contact_name"":""Curtis"", ""contact_surname"":""Jackson"", ""city"":""Chicago"", ""cp"": ""12345""}]";Leonard Cohen, Luke Skywalker, Ammy Winehouse
-                480;21.02.22;4c9b58f04898;Veggies Inc;Wood;"[{""contact_name"":""Maria"", ""contact_surname"":""Theresa"", ""city"":""Calcutta""}]";Luke Skywalker, David Goliat, Leon Leonov
-                481;03.04.22;09d12dddfbbd;Fresh Fruits c.o;Metal;"[{""contact_name"":""Para"", ""contact_surname"":""Cetamol"", ""city"":""Frankfurt am Oder"", ""cp"": ""3934""}]";Luke Skywalker
-                482;14.07.21;1a6fd3aeb7d6;Seafood Supplier;Plastic;;David Goliat, Leonard Cohen
-                483;23.10.22;3c94146e6f16;Meat Packers Ltd;Plastic;;Chris Pratt, David Henderson, Marianov Merschik, Leon Leonov
-               

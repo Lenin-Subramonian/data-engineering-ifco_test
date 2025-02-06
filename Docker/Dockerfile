@@ -34,6 +34,9 @@ COPY streamlit_app/ /streamlit_app/
 # Copy all data files to /app/data inside the container
 COPY data/ /app/data/
 
+# Copy the notebook to /app/notebooks inside the container
+COPY notebooks/IFCO_Data_Analysis.ipynb /app/notebooks/
+
 # Define a mountable volume for persistent data (optional)
 # Remove this if you always mount the volume manually
 VOLUME /app/data
@@ -47,7 +50,7 @@ EXPOSE 8888 8501
 # Start both Jupyter Notebook and Streamlit using supervisord
 CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 
-#-------------------OLD--------------------------------
+#-------------------OLD-------------------------------- 
 # # Use Databricks minimal runtime as the base image
 # FROM databricksruntime/minimal:15.4-LTS
 
