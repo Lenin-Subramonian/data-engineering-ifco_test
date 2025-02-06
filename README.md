@@ -66,6 +66,7 @@
        - Ensure WSL 2 (Windows Subsystem for Linux) is enabled, as it's recommended for running Linux containers.
   3. **Pull the Image from a Registry**
       Docker image link[Docker Hub Link] (https://hub.docker.com/repository/docker/mooney042/ifco-data-app/tags/latest/sha256-c978024b1b69ac3bb8636243c33646879eb9b025a61d1efc1fa8ecdfec7c8123)
+     
       ```
       docker pull mooney042/ifco-data-app:latest
       ```
@@ -127,7 +128,11 @@
   -  Use `Docker-Compose.yml` to deal with persisting data, multiple services, shared volumes, environment variables, or networking.
   -  Use data visulization tool such as Tableau for more dashboard capabilities as data is persisted in database.
   -  Change the base image to optimized Databricks image for better performance.
-  -  Create purpose built dimension data models such as facts and dimensions or denormalised tables for better query and report performance. 
+  -  Create purpose built dimension data models such as facts and dimensions or denormalised tables for better query and report performance.
+
+## Reference Links
+
+  1. Dockerfile (https://github.com/Lenin-Subramonian/data-engineering-ifco_test/blob/main/Docker/Dockerfile)
 
 
 
