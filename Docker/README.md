@@ -1,24 +1,38 @@
-# Example headings
 
-## Sample Section
+## Key Optimizations in Docker File
 
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
+**Resource Management**
 
-## This heading is not unique in the file
+  ```
+  ENV JUPYTER_MAX_WORKERS=4
+  ENV STREAMLIT_SERVER_MAX_UPLOAD_SIZE=200
+  ENV MAX_WORKERS=4
+  ENV MEMORY_LIMIT="4g"
+  ```
 
-TEXT 1
+**Added Health Checks**
 
-## This heading is not unique in the file
+Monitor container health
 
-TEXT 2
+```
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:8501/ || exit 1
+```
 
-# Links to the example headings above
+**Added Cleanup Processes**
 
-Link to the sample section: [Link Text](#sample-section).
+- Creates a cron job that runs every 15 minutes and deletes files in /tmp older than 1 day
+- Helps prevent disk space issues and automatic cleanup of temporary files
 
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
+```
+RUN echo "*/15 * * * * find /tmp -type f -mtime +1 -delete" >> /etc/crontab
+```
 
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
+**Added Cache Management**
 
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
+Manage cache and temporary files
+
+```
+ENV STREAMLIT_CACHE_TTL=3600
+ENV JUPYTER_CACHE_DIR="/tmp/jupyter_cache"
+```
