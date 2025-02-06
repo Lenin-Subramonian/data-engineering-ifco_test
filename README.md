@@ -133,6 +133,11 @@
 ## Reference Links
 
   1. Dockerfile (https://github.com/Lenin-Subramonian/data-engineering-ifco_test/blob/main/Docker/Dockerfile)
+  2. Jupyter Notebook Link (https://github.com/Lenin-Subramonian/data-engineering-ifco_test/blob/main/notebooks/IFCO_Data_Analysis.ipynb)
+
+
+
+
 
 
 
