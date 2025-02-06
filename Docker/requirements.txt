@@ -1,0 +1,15 @@
+# Core dependencies
+pandas
+pyspark
+urllib3
+streamlit
+
+# Jupyter dependencies
+notebook
+jupyterlab
+ipykernel
+ipywidgets
+matplotlib
+
+# Additional dependencies
+requests
