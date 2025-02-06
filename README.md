@@ -59,27 +59,57 @@
       **Additional dependencies**
         - requests
 
-  ## How to install & execute
+  ## How to install & Execute
+
+  ### *Using Docker Image from Registry*
   
   1. **Install Docker on Windows**
        - Install Docker Desktop for Windows.
        - Ensure WSL 2 (Windows Subsystem for Linux) is enabled, as it's recommended for running Linux containers.
-  3. **Pull the Image from a Registry**
-      Docker image link[Docker Hub Link] (https://hub.docker.com/repository/docker/mooney042/ifco-data-app/tags/latest/sha256-c978024b1b69ac3bb8636243c33646879eb9b025a61d1efc1fa8ecdfec7c8123)
+  2. **Pull the Image from a Registry**
+      Docker image link [Docker Hub Link](https://hub.docker.com/repository/docker/mooney042/ifco-data-app/tags/latest/sha256-c978024b1b69ac3bb8636243c33646879eb9b025a61d1efc1fa8ecdfec7c8123)
      
       ```
       docker pull mooney042/ifco-data-app:latest
       ```
-  5. **Run the Image on Windows**
+  3. **Run the Image on Windows**
       If the image is a Linux-based image, it will run fine on Windows if Docker is set to run Linux containers (which is the default with WSL 2).
       ```
       docker run -it --rm -p 8888:8888 -p 8501:8501 mooney042/ifco-data-app:latest
       ```
-   6. **Accessing Notebook and Visualization**
+   4. **Accessing Notebook and Visualization**
         - **To access Jupyter and Streamlit by navigating to:**
             - Jupyter Notebook: http://localhost:8888
-                - [Jupyter Notebook] (http://localhost:8888/lab/tree/IFCO_Data_Analysis.ipynb
+                - [Jupyter Notebook](http://localhost:8888/lab/tree/IFCO_Data_Analysis.ipynb)
             - Streamlit Dashboard: http://localhost:8501
+  
+  ### *Building a Docker image from Git*
+
+1. **Install Docker on Windows**
+
+   - Install Docker Desktop for Windows.
+   - Ensure WSL 2 (Windows Subsystem for Linux) is enabled, as it's recommended for running Linux containers.
+   
+3. **Checkout or downaload all the files form the Git to your local project folder. Navigate to the project root folder in the terminal.** 
+  
+4. **Excute docker build process** 
+     - If the Dockerfile is in a different directory than the current project directory, you need to specify its location using the -f flag.
+     - Docker is looking for a Dockerfile in the current directory (.), but in the example below Dockerfile is inside the subdirectory Docker/ folder.
+     
+      ```
+      docker build -t <my_container_name> -f Docker/Dockerfile .
+      ```
+5. **Run the Image**
+      If the image is a Linux-based image, it will run fine on Windows if Docker is set to run Linux containers (which is the default with WSL 2).
+      ```
+      docker run -it --rm -p 8888:8888 -p 8501:8501 <my_container_name> 
+      ```
+7. **Accessing Notebook and Visualization**
+     - **To access Jupyter and Streamlit by navigating to:**
+     - Jupyter Notebook: http://localhost:8888
+       -  [Jupyter Notebook](http://localhost:8888/lab/tree/IFCO_Data_Analysis.ipynb)
+     -  Streamlit Dashboard: http://localhost:8501
+
 
 ## Assumptions
   - For the current application requirement, the source data both orders and invoices are static files.
@@ -132,8 +162,8 @@
 
 ## Reference Links
 
-  1. Dockerfile (https://github.com/Lenin-Subramonian/data-engineering-ifco_test/blob/main/Docker/Dockerfile)
-  2. Jupyter Notebook Link (https://github.com/Lenin-Subramonian/data-engineering-ifco_test/blob/main/notebooks/IFCO_Data_Analysis.ipynb)
+  1. [Dockerfile](https://github.com/Lenin-Subramonian/data-engineering-ifco_test/blob/main/Docker/Dockerfile)
+  2. [Jupyter Notebook Git Link].(https://github.com/Lenin-Subramonian/data-engineering-ifco_test/blob/main/notebooks/IFCO_Data_Analysis.ipynb)
 
 
 
